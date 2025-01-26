@@ -497,10 +497,16 @@ section.portfolio {
   background-color: #29335c;
   border-radius: 10px;
   overflow: hidden;
-  width: 400px;
+  width: 500px;
   position: relative;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 400px;
+  }
 }
 
 .card:hover {
